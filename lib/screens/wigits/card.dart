@@ -14,7 +14,7 @@ class CustumCard extends StatelessWidget {
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2,
         crossAxisSpacing: 2,
-        mainAxisSpacing: 3,
+        mainAxisSpacing: 2,
       ),
       itemCount: 9,
       itemBuilder: (BuildContext context, int index) {
